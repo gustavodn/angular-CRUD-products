@@ -39,7 +39,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<mat-toolbar class=\"mat-primary\">\n\n    <button [routerLink]=\"['/products']\" routerLinkActive=\"router-link-active\" mat-button> Home </button>\n    <button [routerLink]=\"['/products']\" routerLinkActive=\"router-link-active\" mat-button> Products List </button>\n    <button [routerLink]=\"['/product/new']\" routerLinkActive=\"router-link-active\" mat-button> Create Product  </button>\n</mat-toolbar>");
+            /* harmony default export */ __webpack_exports__["default"] = ("<mat-toolbar class=\"mat-primary\">\r\n    <button [routerLink]=\"['/products']\" routerLinkActive=\"router-link-active\" mat-button> Home </button>\r\n    <button [routerLink]=\"['/products']\" routerLinkActive=\"router-link-active\" mat-button> Products List </button>\r\n    <button [routerLink]=\"['/product/new']\" routerLinkActive=\"router-link-active\" mat-button> Create Product  </button>\r\n</mat-toolbar>");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/product-form/product-form.component.html": 
@@ -751,7 +751,7 @@
             var ProductService = /** @class */ (function () {
                 function ProductService(http) {
                     this.http = http;
-                    this.BASE_URL = 'http://localhost:3000';
+                    this.BASE_URL = 'http://api.pablo-rosa.com';
                 }
                 ProductService.prototype.getProducts = function () {
                     return this.http.get(this.BASE_URL + "/product");
