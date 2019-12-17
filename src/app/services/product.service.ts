@@ -7,7 +7,7 @@ import { ProductInterface } from '../interfaces/Product';
   providedIn: 'root'
 })
 export class ProductService {
-    BASE_URL = 'http://api.pablo-rosa.com';
+    BASE_URL = 'https://api.pablo-rosa.com';
 
     constructor( private http: HttpClient ) { }
 
